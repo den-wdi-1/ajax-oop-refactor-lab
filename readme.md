@@ -2,10 +2,15 @@
 
 | Objectives |
 | :--- |
+|By the end of this lab, developers will be able to...|
 | Refactor Existing Front End JavaScript into OOP |
 | Reinforce OOP JavaScript concepts |
 
-## In your last lab we worked did some test driven development to create a JSON api using Express. For this lab we are going to take the front end JavaScript we were given and refactor it into OOP.
+## Where We Are
+
+In the last lab, we did some test-driven development (TDD) to create a JSON api using Express.
+
+For this lab we are going to take the *front-end* JavaScript we were given and refactor it into OOP.
 
 #### Requirements
 
@@ -29,6 +34,7 @@
       ...
     };
   ```
+>Think-pair-share: Look at the code and think of some other properties we would need in our ```App()``` constructor.
 
 4. Attach all of your functions to App's prototype:
   ```js
@@ -37,8 +43,9 @@
       ...
     };
   ```
+>Think-pair-share: Look at the code and think of some other methods we would need in our ```App()``` prototype.
 
-5. Get that much set up, and then when in doubt, run the code and debug errors one by one.
+5. Try to set this up in small steps, and when in doubt (as often as possible), run the code and debug errors one by one.
 6. When you are finished you should be able to create, read, update and destroy todos on your app!
 
 ## Resources
